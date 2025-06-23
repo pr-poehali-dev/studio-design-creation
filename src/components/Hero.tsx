@@ -3,8 +3,17 @@ import Icon from "@/components/ui/icon";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen bg-gradient-to-br from-purple-600 via-pink-500 to-orange-400 flex items-center justify-center overflow-hidden">
-      <div className="absolute inset-0 bg-black/20"></div>
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      {/* Background image */}
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage:
+            "url(https://cdn.poehali.dev/files/a8a76ee2-290b-4919-bbde-b7b470b6e415.jpg)",
+        }}
+      ></div>
+      {/* Dark overlay for text readability */}
+      <div className="absolute inset-0 bg-black/40"></div>
 
       <div className="relative z-10 text-center text-white px-6 max-w-4xl mx-auto">
         <div className="animate-fade-in">
