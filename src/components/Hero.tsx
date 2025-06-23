@@ -26,7 +26,7 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button
               size="lg"
-              className="bg-white text-purple-600 hover:bg-purple-50 px-8 py-3 text-lg font-semibold"
+              className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-white px-8 py-3 text-lg font-semibold"
             >
               Посмотреть работы
             </Button>
